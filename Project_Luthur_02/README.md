@@ -2,7 +2,7 @@ This folder contains Jupyter notebooks for Project Luthur of the Metis Data Scie
 
 The order of the notebooks below, follow my general train of throught and process throughout this project. 
 
-- Web_scraping_notebook.ipynb - This notebook contains the code that I used to scrape Rotton Tomatoes.
+- Web_scraping_notebook.ipynb - This notebook contains the code that I used to scrape Rotten Tomatoes.
 
 - Wikipedia_API_scraping.ipynb - This notebook contains code that interfaced with Wikipedia's API in order to obtain wikipedia.page. These objects then allowed me to access the unique URL's for each movie.
 
