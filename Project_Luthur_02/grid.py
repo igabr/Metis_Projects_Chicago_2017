@@ -263,12 +263,14 @@ def extract_model_comparisons(model_1_dict, model_2_dict, model_name):
     print("Graphical Comparison below: ")
     print()
     
-    if model_name == "Lasso" or "Elastic Net":
+    if model_name == "Lasso" or model_name == "Elastic Net":
         x_vals = (-0.2, 1.25)
         y_vals = (-1,1)
-    else:
+
+    if model_name == "Ridge":
         x_vals = (0,100)
         y_vals = (0.3, 0.5)
+
         
     plt.figure(figsize=(12,6))
     
