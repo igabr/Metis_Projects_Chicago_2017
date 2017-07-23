@@ -16,10 +16,10 @@ Additional files:
 
 - grid.py - this file contains all the code used in the construction of my Linear Models.
 
-- imports.py - this file contains imports to libraries I often use. This just saves me tyoing common libraries in jupyter.
+- imports.py - this file contains imports to libraries I often use.
 
 - helper_functions.py - this file contains helper functions I wrote to speed up common tasks
 
-The focus of this project was data cleaning/munging(ETL) in addition to a first pass ar simple linear regression models using the sklearn library.
+The focus of this project was data cleaning/munging(ETL) in addition to a first pass at linear regression models using the sklearn library.
 
 You can find my website [here](https://www.ibrahimgabr.com "Ibrahim Gabr").
