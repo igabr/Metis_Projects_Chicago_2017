@@ -1,0 +1,19 @@
+{% extends "basic/layout.html" %}
+{% block header %}
+  {{ super() }}
+  {% if pagename == 'index' %}
+  <div class=indexwrapper>
+  {% endif %}
+{% endblock %}
+{% block footer %}
+    <div class="footer">Created by <a href="http://stevelosh.com/">Steve Losh</a></p>
+    {% if pagename == 'index' %}
+        </div>
+    {% endif %}
+{% endblock %}
+{# do not display relbars #}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}
+{% endblock %}
+{% block sidebar1 %}{% endblock %}
+{% block sidebar2 %}{% endblock %}
