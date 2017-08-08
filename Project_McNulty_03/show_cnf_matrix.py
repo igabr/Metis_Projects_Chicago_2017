@@ -1,3 +1,5 @@
+#With great thanks to https://notmatthancock.github.io/2015/10/28/confusion-matrix.html
+
 def show_confusion_matrix(C,class_labels=['PAID','CHARGED OFF']):
     """
     C: ndarray, shape (2,2) as given by scikit-learn confusion_matrix function
