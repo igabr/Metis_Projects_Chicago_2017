@@ -16,7 +16,6 @@ order = ('int_rate', 'dti','term_ 60 months','bc_open_to_buy','revol_util','inst
 
 
 app = Flask(__name__)
-app.debug = True
 
 sass(app, input_dir='assets/scss', output_dir='static/css')
 
