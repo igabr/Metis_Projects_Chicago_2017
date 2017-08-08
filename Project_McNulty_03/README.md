@@ -8,7 +8,7 @@ At a high level, this project taught me the following:
 
 - Flask python backend web development
 
-- Initimate familiarity with Sci-Kit Learn's numerous classification modules in addition to hyper-parameter tuning.
+- Intimate familiarity with Sci-Kit Learn's numerous classification modules in addition to hyper-parameter tuning.
 
 - I had problems with GridSearchCV on AWS EC2 (job would hang for hours), however, this forced me to manually write the loops that GridSearchCV does automatically. This was an excellent exercise. The downside was that I could not truly optimize my hyper-parameters.
 
