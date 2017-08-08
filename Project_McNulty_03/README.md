@@ -40,4 +40,9 @@ The [`web_app`](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master
 
 [RF 35 Final Model Notebook](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master/Project_McNulty_03/rf_35_final_model.ipynb): This notebook contains the final model used in prediction. I had to substantially reduce my feature space in order to make the model 'user friendly' via the flask app. In an ideal world, the customer would fill out a very large online form for a loan, and our code would parse all that information and predict an outcome. I could _easily_ implement this in the future as all the peices of code are present. This notebook also show how to adjust the _cutoff threshold_ for a Random Forest (in fact, all sklearn algorithms). Unfortunately, there is no hyper-parmeter for this.
 
+[Helper Functions Python File](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master/Project_McNulty_03/helper_functions.py): This file contains helper functions used throughout the project.
+
+[Show Cnf Matrix Python File](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master/Project_McNulty_03/show_cnf_matrix.py): This python file was oobtained from [here](https://notmatthancock.github.io/2015/10/28/confusion-matrix.html).
+
+
 **Addendum: Some notebooks may import `helper_loans.py` into the notebook - change this to `helper_functions.py` to avoid the error.**
