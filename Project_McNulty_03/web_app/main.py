@@ -40,10 +40,7 @@ def result():
 		for label in order:
 			entries.append(dict_of_data[label])
 		array_entries = np.array(entries)
-		print(len(array_entries))
-		print("-------------------HERE-----------------------")
 		scaled_entries = np.array(scaler.transform(array_entries).reshape(1,-1)[0][:-1])
-		print(scaled_entries.shape)
 		prediction = rf_clf.predict(scaled_entries)[0]
 
 		if prediction == 0:
