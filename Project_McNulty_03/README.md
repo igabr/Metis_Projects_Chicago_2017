@@ -45,4 +45,4 @@ The [`web_app`](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master
 [Show Cnf Matrix Python File](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master/Project_McNulty_03/show_cnf_matrix.py): This python file was oobtained from [here](https://notmatthancock.github.io/2015/10/28/confusion-matrix.html).
 
 
-**Addendum: Some notebooks may import `helper_loans.py` into the notebook - change this to `helper_functions.py` to avoid the error.**
+**Addendum: Some notebooks may import `helper_loans.py` into the notebook - change this to [`helper_functions.py`](https://github.com/igabr/Metis_Projects_Chicago_2017/blob/master/Project_McNulty_03/helper_functions.py) to avoid the error.**
