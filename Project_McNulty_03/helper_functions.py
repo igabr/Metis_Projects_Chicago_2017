@@ -114,6 +114,7 @@ def plot_corr_matrix(data):
 
     ax.set_title('Correlation Matrix')
 
+#functions below relate to logisitic regression coef interpretation
 def convert_to_prob(coef):
     numerator = np.exp(coef)
 
