@@ -4,7 +4,34 @@ import matplotlib.pyplot as plt
 import pickle
 import seaborn as sns
 import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
+import re
+from datetime import datetime
+warnings.filterwarnings("ignore")
+
+def difference_in_days(date1, date2):
+    """
+    The assumption here is that Date 2 > Date 1.
+
+    can always use abs(d2-d1).days to remove weird answers.
+    """
+    d1 = datetime.strptime(date1, '%m-%d-%Y')
+    d2 = datetime.strptime(date2, '%m-%d-%Y')
+    return (d2-d1).days #can use other methods to get differene in months, years etc. 
+
+def clean_df_cols(col_list):
+    """
+    input df.column
+    """
+    regex = r"[\!\"\'\,\(\)\[\]\*\.\\]"
+    subset=''
+
+    clean_col_names = []
+    
+    for i in col_list:
+        clean_name = re.sub(regex, subset, i).strip()
+        clean_col_names.append(clean_name)
+
+    return clean_col_names
 
 def unique_pairs(df):
 	'''Get diagonal and lower triangular pairs of correlation matrix'''
