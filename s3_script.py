@@ -33,6 +33,7 @@ def create_bucket(name_of_bucket):
 	if created:
 		print("Bucket {} created!".format(name_of_bucket))
 
+
 def view_keys_in_bucket(name_of_bucket):
 	"""
 	Enter the name of the bucket.
