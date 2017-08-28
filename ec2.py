@@ -38,8 +38,6 @@ def update_bash_profile(instance_obj):
 
 	print(".bash_profile has been updated for the instance with id: {}. Be sure to open a new shell for changes to take effect".format(instance_obj.id))
 
-	print("Disregard any warnings you may see about syntax regarding cd^ ")
-
 def instance_state(instance_obj):
 
 	return instance_obj.state['Name']
