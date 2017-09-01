@@ -2,6 +2,10 @@ This folder contains Jupyter notebooks for Project McNulty of the Metis Data Sci
 
 The focus of this project was classification - I specifically focused on Random Forests as they represent a powerful ensemble method. If I had more time, I would have also considered boosted trees.
 
+# Objective
+
+Using a kaggle dataset regarding loans from [LendingClub](https://www.lendingclub.com/), my projected aim to predict: "Of those who were granted a loan by LC, will they pay of their laon on time, that is to say, will they default on their loan, or not."
+
 # Learning Overview
 
 At a high level, this project taught me the following:
