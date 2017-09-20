@@ -10,7 +10,7 @@ This project was inspire by a Stanford student project that can be found [here.]
 
 You can view the Google slides presentation of this project [here.](https://docs.google.com/presentation/d/1alMKiOTn8zAodrGEOdMpde11RfY8SCerPcAjBlS3rTI/edit?usp=sharing) The presentation covers the findings and the overall structure of the modeling process.
 
-# Model
+# Model Process
 
 In this project I use a nested Time Series within a Linear Regression. I elucidate what this means in the [Final Notebook](Final_Notebook.ipynb)
 
