@@ -6,8 +6,6 @@ from sklearn.preprocessing import StandardScaler
 import statsmodels.api as sm
 from prophet_helper import *
 
-## Keep sklearn implementation as you want beta plots. Could possibly just do with stats models.
-
 def master(df, window):
 	"""
 	Drop open and close
