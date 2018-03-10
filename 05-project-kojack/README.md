@@ -6,6 +6,8 @@ I was able to show that there is a statistically significant relationship betwee
 
 The greatest limitation in this project was collecting tweets. As such, I used data provided [here.](https://github.com/mluders/tweetwise)
 
+UPDATE (03/10/2018): It seems that the original source of data is not longer available. I would highly recommend [blockchain.info](https://blockchain.info) as a source of data.
+
 This project was inspire by a Stanford student project that can be found [here.](http://cs229.stanford.edu/proj2015/029_report.pdf)
 
 You can view the Google slides presentation of this project [here.](https://docs.google.com/presentation/d/1alMKiOTn8zAodrGEOdMpde11RfY8SCerPcAjBlS3rTI/edit?usp=sharing) The presentation covers the findings and the overall structure of the modeling process.
