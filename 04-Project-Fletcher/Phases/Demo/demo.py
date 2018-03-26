@@ -43,7 +43,7 @@ def go(phrase):
 	else:
 		to_search = random.sample(unique_lst, 5)
 
-	to_search = random.sample(unique_lst, 5)
+	# to_search = random.sample(unique_lst, 5)
 
 	print("Here are 5 handles randomly selected from the overall list:")
 	print()
