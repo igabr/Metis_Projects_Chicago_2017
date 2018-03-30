@@ -142,7 +142,9 @@ The Phase 3 notebook served as the development ground to create the following sc
 
 While Phase 3 would have been sufficient to create a recommender system based on content. I decided to also test out TF-IDF along with K-Means clustering in order to assess whether they would corroborate the LDA results. I was ecstatic to find that I had a **strong intersection** of results between the two models.
 
-**NOTE:** Ideally, I wanted to create 20 clusters for each user. Each cluster would represent a topic. However, I cannot ensure that every second degree connection user has *at least* 200 tweets and this has implications for the dimensions of the TF-IDF matrix. As such, for those uses where it is **impossible** to calculate 20 clusters, I calculate as many clusters as there are topics - that is, the numbers of rows in the TF-IDF matrix.
+**NOTE:** Ideally, I wanted to create 20 clusters for each user. Each cluster would represent a topic. However, I cannot ensure that every second degree connection user has *at least* 200 tweets and this has implications for the dimensions of the TF-IDF matrix. As such, for those users where it is **impossible** to calculate 20 clusters, I calculate as many clusters as there are documents (tweets) - that is, the numbers of rows in the TF-IDF matrix for a particular user.
+
+Looking back, it would have been ideal to use agglomerative hierarchical clustering to create a dendogram which could be inspected to identify an adequate number of clusters for each user.
 
 - [Phase 4 Notebook](Phases/Phase_4/Phase_4_Notebook.ipynb)
 
